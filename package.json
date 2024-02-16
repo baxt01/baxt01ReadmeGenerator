@@ -3,7 +3,6 @@
   "description": "This CLI will generate a high quality readme.md file for github repos for open source projects to save the creator the time of doing this task so they can work on the creation process.",
   "version": "1.0.0",
   "main": "index.js",
-  "devDependencies": {},
   "scripts": {
     "test": "node index.js"
   },
@@ -25,5 +24,10 @@
   "bugs": {
     "url": "https://github.com/baxt01/baxt01ReadmeGenerator/issues"
   },
-  "homepage": "https://github.com/baxt01/baxt01ReadmeGenerator#readme"
+  "homepage": "https://github.com/baxt01/baxt01ReadmeGenerator#readme",
+  "dependencies": {
+    "fs": "^0.0.1-security",
+    "inquirer": "^9.2.14",
+    "path": "^0.12.7"
+  }
 }
