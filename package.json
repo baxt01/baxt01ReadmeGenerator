@@ -1,0 +1,29 @@
+{
+  "name": "baxt01readmegenerator",
+  "description": "This CLI will generate a high quality readme.md file for github repos for open source projects to save the creator the time of doing this task so they can work on the creation process.",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/baxt01/baxt01ReadmeGenerator.git"
+  },
+  "keywords": [
+    "Javascript",
+    "Node",
+    "fs",
+    "paths",
+    "github",
+    "readme",
+    "generator"
+  ],
+  "author": "Michael Baxter",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/baxt01/baxt01ReadmeGenerator/issues"
+  },
+  "homepage": "https://github.com/baxt01/baxt01ReadmeGenerator#readme"
+}
