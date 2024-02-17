@@ -27,7 +27,7 @@
   "homepage": "https://github.com/baxt01/baxt01ReadmeGenerator#readme",
   "dependencies": {
     "fs": "^0.0.1-security",
-    "inquirer": "^9.2.14",
+    "inquirer": "^8.2.6",
     "path": "^0.12.7"
   }
 }
