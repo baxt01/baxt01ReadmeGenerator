@@ -1,7 +1,3 @@
-// require the file system library
-const fs = require("fs");
-// require the path library
-const path = require('path');
 // require the inquirer library
 const inquirer = require('inquirer');
 // require the local file 
@@ -71,27 +67,35 @@ inquirer
   ])
   .then((answers) => {
     // Use user feedback for... whatever!!
-    const {project_title, description, table_of_contents, installation, usage, license, Contributing, tests, questions} = answers;
+  //   const {project_title, description, table_of_contents, installation, usage, license, Contributing, tests, questions} = answers;
     
-    // console.log(answers);
+  //     const html = 
+  // `# ${project_title}
+  
+  // ## Description:
+  // ${description}
+  
+  // ##Table Of Contents:
+  
+  // ${table_of_contents}
 
-    // const title = answers.project_title;
-    // const description = answers.Description;
-    // const table_of_contents = answers.table_of_contents;
+  // ## Installation:
 
+  // ${installation}
 
-    console.log(project_title);
-    console.log(description);
-    console.log(table_of_contents);
+  // `;
+
+  // const createFile = fs.writeFile(path.join(__dirname, './', 'readme.md'), html);
+
     
-
+    generateMarkdown(answers);
 
   })
 
-//   .catch((error) => {
-//     if (error.isTtyError) {
-//       // Prompt couldn't be rendered in the current environment
-//     } else {
-//       // Something else went wrong
-//     }
-//   });
+  // .catch((error) => {
+  //   if (error.isTtyError) {
+  //     // Prompt couldn't be rendered in the current environment
+  //   } else {
+  //     // Something else went wrong
+  //   }
+  // });
