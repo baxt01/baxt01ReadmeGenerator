@@ -26,7 +26,7 @@ inquirer
       default: 'installation'
     },
     {
-      type: 'input',
+      type: 'editor',
       name: 'installation',
       message: 'How can a user install your application?',
       default: 'Clone the repo to you\'re local drive.'
@@ -67,29 +67,7 @@ inquirer
   ])
   .then((answers) => {
     // Use user feedback for... whatever!!
-  //   const {project_title, description, table_of_contents, installation, usage, license, Contributing, tests, questions} = answers;
-    
-  //     const html = 
-  // `# ${project_title}
-  
-  // ## Description:
-  // ${description}
-  
-  // ##Table Of Contents:
-  
-  // ${table_of_contents}
-
-  // ## Installation:
-
-  // ${installation}
-
-  // `;
-
-  // const createFile = fs.writeFile(path.join(__dirname, './', 'readme.md'), html);
-
-    
     generateMarkdown(answers);
-
   })
 
   // .catch((error) => {
