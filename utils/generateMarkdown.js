@@ -7,8 +7,9 @@ const path = require('path');
 function generateMarkdown(answers) {
   
   // deconstructing the answers object.
-  const {project_title, description, table_of_contents, installation, usage, license, Contributing, tests, questions} = answers;
-let licenseImg = 'to be replaced with an image link!';
+  let {username, project_title, description, table_of_contents, installation, usage, license, Contributing, tests, questions} = answers;
+
+  let licenseImg = 'to be replaced with an image link!';
 let licenseInfo = 'sample text for testing!';
 switch (license) {
   case 'Apache':
@@ -90,7 +91,9 @@ switch (license) {
                                           break;
       }
 
-  let html = `${licenseImg}\n\n# ${project_title}\n\n## Description:\n${description}\n\n`;
+questions += `\n\n${username}\n\nVisit my git hub profile: [${username} github profile](https://github.com/${username})`;
+
+let html = `${licenseImg}\n\n# ${project_title}\n\n## Description:\n${description}\n\n`;
 
   // checking IF the user has chosen to have a table_of_contents or not.
   if (!table_of_contents.length) {

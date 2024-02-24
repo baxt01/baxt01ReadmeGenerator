@@ -7,6 +7,12 @@ inquirer
   .prompt([
     /* Pass your questions in here */
     {
+      type: 'input',
+      name: 'username',
+      message: 'Enter your github username',
+      default: 'baxt01',
+    },
+    {
         type: 'input',
         name: 'project_title',
         message: 'What is your project title?',
@@ -60,7 +66,7 @@ inquirer
       type: 'input',
       name: 'questions',
       message: 'where can questions and issues be reported to?',
-      default: 'your github issues section.'
+      default: 'youremail@example.com'
     }
 
     //need to look at how a user can add screenshots to this app.
