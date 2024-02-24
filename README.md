@@ -42,10 +42,10 @@ A short and simple permissive license with conditions only requiring preservatio
 
 ## Tests
 
-This webpage has been tested using Git Pages [Click here to visit my live  git page]( [https://baxt01.github.io/baxt01readmegenerator/](https://baxt01.github.io/baxt01readmegenerator))
+This webpage has been tested using Git Pages [Click here to visit my live  git page](https://baxt01.github.io/baxt01ReadmeGenerator/)
 
 
 ## Screenshots
 
  ![My Repo](https://github.com/baxt01/baxt01ReadmeGenerator/blob/main/images/repo.png) 
-  ![live pages](https://baxt01.github.io/baxt01ReadmeGenerator//blob/main/images/livepages.png) 
+  ![live pages](https://github.com/baxt01/baxt01ReadmeGenerator/blob/main/images/livepages.png) 
