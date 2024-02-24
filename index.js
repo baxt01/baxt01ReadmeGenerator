@@ -38,10 +38,11 @@ inquirer
       default: 'working.'
     },
     {
-      type: 'input',
+      type: 'list',
       name: 'license',
       message: 'Which type of License does your application come with?',
-      default: 'MIT'
+      choices: ['Apache', 'Boost', 'BSD2', 'BSD3', 'CC0', 'Eclipse', 'GNU', 'GNU GPLv3', 'GNU AGPL v3', 'GNU FDL v1.3', 'The Hippocratic License 3.0', 'IBM', 'ISC', 'MIT', 'Mozilla', 'Open Data Commons', 'Open Database License (ODbL)', 'Perl', 'SIL', 'Unlicense', 'WTFPL', 'Zlib'],
+      default: ''
     },
     {
       type: 'input',
